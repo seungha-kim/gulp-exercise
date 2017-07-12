@@ -1,0 +1,9 @@
+@import 'mixins';
+
+body {
+  background-color: cyan;
+}
+
+.main {
+  @include shadow;
+}
